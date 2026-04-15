@@ -8,12 +8,12 @@ function App() {
     console.log("value added : ", counter);
     counter = counter + 1;
     setCounter(counter);
-  }
+  };
   const removeValue = () => {
     console.log("value decreased : ", counter);
     counter = counter - 1;
     setCounter(counter);
-  }
+  };
   return (
     <>
       <h1>chai aur React</h1>
